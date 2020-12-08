@@ -12,6 +12,7 @@ function evenOrOdd(n) {
   return n % 2 ? 'Odd' : 'Even';
 }
 
+
 console.log(evenOrOdd(0))  // Even
 console.log(evenOrOdd(1))  // Odd
 console.log(evenOrOdd(2))  // Even
