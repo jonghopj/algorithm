@@ -61,8 +61,8 @@
 
 // solution 5
 
- function countSheeps(arr) {
-   return arr.filter(Boolean).length;
- }
+//  function countSheeps(arr) {
+//    return arr.filter(Boolean).length;
+//  }
 
- console.log(countSheeps([true, false, false, true]));
+//  console.log(countSheeps([true, false, false, true]));
