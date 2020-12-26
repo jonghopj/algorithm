@@ -1,37 +1,36 @@
-// function findNonConsecutiveNum(arr) {
-//   for (let i = 0; i < arr.length - 1; i++) {
-//     if (arr[i] + 1 !== arr[i + 1]) {
-//       return arr[i + 1];
-//     }
-//   }
+function findNonConsecutiveNum(arr) {
+  for (let i = 0; i < arr.length - 1; i++) {
+    if (arr[i] + 1 !== arr[i + 1]) {
+      return arr[i + 1];
+    }
+  }
 
-//    return null;
-// }
+   return null;
+}
 
-//  console.log(findNonConsecutiveNum([1, 2, 3, 4]));
-
-
-
-// 2
+ console.log(findNonConsecutiveNum([1, 2, 3, 4]));
 
 
-// function findNonConsecutiveNum(arr) {
-//   for (let i = 1; i < arr.length;  i++) {
-//     let current = arr[i];
-//     let previous = arr[i - 1];
 
-//     if (current = previous > 1) {
-//       return current;
-//     }
-//   }
+2
 
 
-//    return null;
-// }
+function findNonConsecutiveNum(arr) {
+  for (let i = 1; i < arr.length;  i++) {
+    let current = arr[i];
+    let previous = arr[i - 1];
+
+    if (current = previous > 1) {
+      return current;
+    }
+  }
 
 
-// console.log(findNonConsecutiveNum([1, 2, 3, 4]));
+   return null;
+}
 
+
+console.log(findNonConsecutiveNum([1, 2, 3, 4]));
 
 
 function findNonConsecutiveNum(arr) {
