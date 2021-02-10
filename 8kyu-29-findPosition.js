@@ -19,3 +19,4 @@ function findPosition(letter) {
 }
 
 console.log(findPosition('s'));
+
