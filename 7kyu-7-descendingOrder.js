@@ -8,14 +8,14 @@
 
 // solution2
 
-// function descendingOrder(n) {
-//   return Number(string(n).split('').sort((a, b) => b - a).join(''));
-// }
-// console.log(descendingOrder(4801));
-
-// solution3
 function descendingOrder(n) {
-  return +((''+ n). split('').sort((a, b) => b - a). join(''));
+  return Number(String(n).split('').sort((a, b) => b - a).join(''));
 }
+console.log(descendingOrder(4801));
 
-console.log(descendingOrder(1234));
+// // solution3
+// function descendingOrder(n) {
+//   return +((''+ n). split('').sort((a, b) => b - a). join(''));
+// }
+
+// console.log(descendingOrder(1234));

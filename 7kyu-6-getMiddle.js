@@ -19,4 +19,4 @@ function getMiddle(str) {
   return str.substr(middle, str.length % 2 !== 0 ? 1 : 2);
 }
 
-console.log(getMiddle('odd'));
+// console.log(getMiddle('odd'));

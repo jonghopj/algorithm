@@ -29,4 +29,4 @@ function findShort(str) {
   return Math.min(...str.split(' ').map(i => i.length));
 }
 
-console.log(findShort('ab cde fghi'));
+// console.log(findShort('ab cde fghi'));
