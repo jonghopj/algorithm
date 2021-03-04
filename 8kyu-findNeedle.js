@@ -1,7 +1,7 @@
-Haystacks
-const haystack_01 = [4, '2019', undefined, 'needle'];
-const haystack_02 = ['thread', true, 'needle', 2019];
-const haystack_03 = [false, 'thread', 8688, 'code'];
+// Haystacks
+// const haystack_01 = [4, '2019', undefined, 'needle'];
+// const haystack_02 = ['thread', true, 'needle', 2019];
+// const haystack_03 = [false, 'thread', 8688, 'code'];
 
 // solution1
 
@@ -13,12 +13,12 @@ const haystack_03 = [false, 'thread', 8688, 'code'];
 //   }
 // }
 
-// console.log(findNeedle(haystack_01));
+// console.log(findNeedle([4, '2019', undefined, 'needle']));
 
 // solution2
 
-function findNeedle(haystack) {
-  return haystack.indexOf('needle');
-}
+// function findNeedle(haystack) {
+//   return haystack.indexOf('needle');
+// }
 
-console.log(findNeedle(haystack_03));
+// console.log(findNeedle([4, '2019', undefined, 'needle']));

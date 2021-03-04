@@ -35,4 +35,4 @@ function summation(n) {
   }
 }
 
-console.log(summation(10));
+// console.log(summation(10));
